@@ -121,13 +121,13 @@ router.post('/callback', async (req, res) => {
       }
     }
  
-
+/*/
     try {
    await axios.get(`https://api.pushcut.io/ChzkB6ZYQL5SvlUwWpo2i/notifications/Venda%20realizada `)
     } catch (error) {
       console.error('Erro ao chamar notificação:', error);
     }
-
+/*/
 
     // Atualiza status da transação
     transaction.status = 'completed';
